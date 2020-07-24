@@ -1,7 +1,7 @@
 function onMouseMove(event) {
 var path = new Path.Circle({
   center: event.middlePoint,
-  radius: Math.floor(Math.random() * 30) + 5
+  radius: Math.floor(Math.random() * 30)
 })
 
 path.fillColor = {
