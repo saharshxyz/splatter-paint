@@ -5,7 +5,7 @@ var path = new Path.Circle({
 })
 
 path.fillColor = {
-  hue: 0,
+  hue: event.count * 3,
   saturation: 1,
   brightness: 1
 }
