@@ -1,3 +1,5 @@
+tool.fixedDistance = 60
+
 function onMouseMove(event) {
 var path = new Path.Circle({
   center: event.middlePoint,
